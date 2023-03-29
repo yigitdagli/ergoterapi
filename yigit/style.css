@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-style: italic;
+}
+
+header {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 37px 13%;
+    background: transparent;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+}
+
+.navlist {
+    display: flex;
+}
+
+.navlist li a {
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 350px;
+    border-bottom: 2px solid transparent;
+}
+
+.navlist li a:hover {
+    border-bottom: 2px solid black ;
+    transition: 0.55s;
+}
+
+.hero {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(245.59deg, #0000001f 0%, #124f52d3 28.53%, hsla(278, 63%, 49%, 0.144) 75.52%);
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+
+section {
+    padding: 0 19%;
+}
+
+.hero-text h5 {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 40px;
+}
+
+.hero-text h3 {
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    color: black;
+    font-size: 25px;
+    line-height: 3;
+    margin-bottom: 40px;
+}
+
+img {
+        width: 710px;
+        height: auto;
+        border-radius: 500px;
+}
+
